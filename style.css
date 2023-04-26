@@ -1,0 +1,218 @@
+.flex-container{
+    display: flex;
+    margin: auto;
+    height:auto;
+    width: 90%;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 20px rgb(196, 201, 196);
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(49, 97, 145);
+    width: 25%;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 75%;
+}
+.base{
+    text-align: center;
+    margin-top: 20%;
+}
+.name{
+    color: aliceblue;
+    font-size: 3vw;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.position{
+    color:aliceblue ;
+    font-size: 1.5vw;
+    margin-top: 3%;
+}
+.personinformation{
+    background-color: rgb(225, 224, 224);
+    height: 3vw;
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+}
+.personinformation p:first-child{
+    font-size :1.5vw;
+    color: rgb(73, 73, 73);
+    position: relative;
+    transform: translateY(25%);
+    margin-left: auto;
+}
+.personinformation p span{
+    font-size :1.5vw;
+    font-weight: bold;
+}
+.information p{
+    color: aliceblue;
+    margin-left: 20%;
+    font-size: 1.2vw;
+}
+.contactway{
+    background-color: rgb(225, 224, 224);
+    height: 3vw;
+    text-align: center;
+    margin-top: 15%;
+}
+.contactway p:first-child{
+    font-size :1.5vw;
+    color: rgb(73, 73, 73);
+    position: relative;
+    transform: translateY(25%);
+    margin-left: auto;
+}
+.contactway p span{
+    font-size :1.5vw;
+    font-weight: bold;
+}
+.contact p{
+    color: aliceblue;
+    margin-left: 20%;
+    font-size: 1.2vw;
+}
+.personhonour{
+    background-color: rgb(225, 224, 224);
+    height: 3vw;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.personhonour p:first-child{
+    font-size :1.5vw;
+    color: rgb(73, 73, 73);
+    position: relative;
+    transform: translateY(25%);
+    margin-left: auto;
+}
+.personhonour p span{
+    font-size :1.5vw;
+    font-weight: bold;
+}
+.honour{
+    height: 18vw;
+    background-color: rgb(49, 97, 145);
+}
+.honour span{
+    background-color: rgb(225, 224, 224);
+    margin-top: 15%;
+    margin-left: 12%;
+}
+.top{
+    background-color: rgb(225, 224, 224);
+    height: 2%;
+}
+.educationtime{
+    margin-left: 5%;
+    font-weight: bold;
+    color:rgb(58, 57, 57);
+}
+.worktime{
+    margin-left: 5%;
+    font-weight: bold;
+    color:rgb(58, 57, 57);
+}
+.educationbackground{
+    background-color: rgb(225, 224, 224);
+    height: 3vw;
+    width: 20vw;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.educationbackground p:first-child{
+    font-size :1.5vw;
+    color: rgb(73, 73, 73);
+    position: relative;
+    transform: translateY(25%);
+    margin-left: auto;
+}
+.educationbackground p span{
+    font-size :1.5vw;
+    font-weight: bold;
+}
+.workexperience{
+    background-color: rgb(225, 224, 224);
+    height: 3vw;
+    width: 20vw;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.workexperience p:first-child{
+    font-size :1.5vw;
+    color: rgb(73, 73, 73);
+    position: relative;
+    transform: translateY(25%);
+    margin-left: auto;
+}
+.workexperience p span{
+    font-size :1.5vw;
+    font-weight: bold;
+}
+.professiontechnique{
+    background-color: rgb(225, 224, 224);
+    height: 3vw;
+    width: 20vw;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.professiontechnique p:first-child{
+    font-size :1.5vw;
+    color: rgb(73, 73, 73);
+    position: relative;
+    transform: translateY(25%);
+    margin-left: auto;
+}
+.professiontechnique p span{
+    font-size :1.5vw;
+    font-weight: bold;
+}
+.education ul{
+    margin-left: 3%;
+    line-height: 2vw;
+}
+.experience ul{
+    margin-left: 3%;
+    line-height: 2vw;
+}
+.technique ul{
+    margin-left: 3%;
+    line-height: 2vw;
+}
+.hobby span{
+    background-color: rgb(225, 224, 224);
+    margin-top: 15%;
+    margin-left: 12%;
+}
+.intresthobby{
+    background-color: rgb(225, 224, 224);
+    height: 3vw;
+    width: 20vw;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.intresthobby p:first-child{
+    font-size :1.5vw;
+    color: rgb(73, 73, 73);
+    position: relative;
+    transform: translateY(25%);
+    margin-left: auto;
+}
+.intresthobby p span{
+    font-size :1.5vw;
+    font-weight: bold;
+}
